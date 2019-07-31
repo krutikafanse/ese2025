@@ -5,7 +5,7 @@ if [ -e "$FILES" ]
 then
 echo "Files exist"
 else
-echo "File does not exist"
+echo "File does not exists"
 fi
 WORD=(grep -i -o $WORD $FILE | wc -l)
 
