@@ -1,0 +1,9 @@
+#!/bin/bash
+string=fail
+while true
+do
+if tail -f/path/to/file | grep $string
+then
+echo -e "string found on krutika" |mail -s "newfile" krutikafanse@ymal.com
+fi
+done
