@@ -1,0 +1,19 @@
+FILE=$1
+WORD=$2
+EMPTY=0
+if [ -e "$FILES" ]
+then
+echo "Files exist"
+else
+echo "File does not exist"
+fi
+WORD=(grep -i -o $WORD $FILE | wc -l)
+
+if [ "$WORD_CONT" -ne  "EMPTY" ]
+then
+echo "WORD FOUND"
+echo "The word "$WORD" appeared ="
+echo "WORD_CONT"
+else
+echo "NO WORD FOUND"
+fi
