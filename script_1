@@ -11,9 +11,9 @@ fi
 #generate the log file
 sstring=$1 #search string
 count=0
-LIMIT=10
+Limit=10
 
-while ["$count" lt "LIMIT" ]
+while ["$count" lt "Limit" ]
 #
 #spaces, because these are "test-brakets"....
 do
