@@ -1,6 +1,6 @@
 FILE=$1
 WORD=$2
-EMPTY=0
+Empty=0
 if [ -e "$FILES" ]
 then
 echo "Files exist"
@@ -9,7 +9,7 @@ echo "File does not exists"
 fi
 WORD=(grep -i -o $WORD $FILE | wc -l)
 
-if [ "$WORD_CONT" -ne  "EMPTY" ]
+if [ "$WORD_CONT" -ne  "Empty" ]
 then
 echo "WORD FOUND"
 echo "The word "$WORD" appeared ="
