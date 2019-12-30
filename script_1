@@ -11,7 +11,7 @@ fi
 #generate the log file
 sstring=$1 #search string
 count=0
-Limit=10
+Limit=20
 
 while ["$count" lt "Limit" ]
 #
@@ -22,7 +22,7 @@ touch"log_$datestr.txt"
 uname >> log_$datestr.txt
 log >> log_$datestr.txt
 grep -m 'expr $count +1' $string word.txt | tail -1 >> log_$datestr.txt
-sleep 10 # wait for 10 seconds
+sleep 20 # wait for 10 seconds
 count= 'expr $count + 1'
 done # while
 echo
