@@ -11,7 +11,7 @@ fi
 #generate the log file
 sstring=$1 #search string
 count=0
-Limit=20
+Limit=30
 
 while ["$count" lt "Limit" ]
 #
